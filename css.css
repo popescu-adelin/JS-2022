@@ -1,12 +1,13 @@
 
 body{
-    background: url('vscode/lumini.png') -200px -50px, #151815;
+    background: url('vscode/lumini.png') -200px -50px, #04141a;
     
     background-size: 700px;
     /* background-position-x: -200px;
     background-position-y: -50px; */
     background-repeat:no-repeat;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 .container{
     background-color: rgba(255, 255, 255, 0);
@@ -15,15 +16,17 @@ body{
     background-color: rgba(128, 128, 128, 0.494);
 }
 .mytitle{
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff29;
     border-left: none;
     border-right: none;
     height: 100px;
     color: chocolate;
+    font-family: 'Noto Sans', sans-serif;
 }
 .mytitle2{
     background-color: white;
     height: 63;
+    font-family: 'Noto Sans', sans-serif;
 }
 .myimgbox{
     width: 200px;
@@ -32,14 +35,19 @@ body{
     background-color: rgb(0, 0, 0);
 }
 .mybutton{
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(43, 39, 39);
     border: 2px solid rgb(210, 105, 30);
     color:white;
     border-radius: 1.5em;
     box-shadow: 1px 0px 3px chocolate;
+    transition-duration: 0.3s;
+}
+.teambg{
+    background: url('vscode/lumini.png') -150px -100px;
+    background-repeat: no-repeat;
 }
 .mybutton:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.556);
     color:black;
 }
 /* // X-Small devices (portrait phones, less than 576px)
@@ -47,6 +55,7 @@ body{
 .mytext{
     font-size: 45px;
     color: chocolate;
+    font-family: 'Noto Sans', sans-serif;
 }
 .mybg{
     background-color: rgba(0, 0, 0, 0);
