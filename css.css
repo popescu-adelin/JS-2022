@@ -1,7 +1,7 @@
 
 body{
     background: url('vscode/lumini.png') -200px -50px, #04141a;
-    
+    /* sa fie exact ca la imaginea de fundal */
     background-size: 700px;
     /* background-position-x: -200px;
     background-position-y: -50px; */
