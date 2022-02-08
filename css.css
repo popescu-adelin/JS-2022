@@ -1,11 +1,6 @@
 
 body{
-    background: url('vscode/lumini.png') -200px -50px, #04141a;
-    /* sa fie exact ca la imaginea de fundal */
-    background-size: 700px;
-    /* background-position-x: -200px;
-    background-position-y: -50px; */
-    background-repeat:no-repeat;
+    background: #05161d;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -49,6 +44,9 @@ body{
 .mybutton:hover{
     background-color: rgba(255, 255, 255, 0.556);
     color:black;
+}
+.iconcolor{
+    color: white;
 }
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */

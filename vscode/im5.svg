@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="674" height="238" viewBox="0 0 674 238">
-  <g id="Group_174" data-name="Group 174" transform="translate(-2038 -2522)">
-    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(2038 2522)" fill="#bf9a41" stroke="#707070" stroke-width="1">
-      <rect width="674" height="238" stroke="none"/>
-      <rect x="0.5" y="0.5" width="673" height="237" fill="none"/>
+  <g id="Group_175" data-name="Group 175" transform="translate(-2038 -2522)">
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(2038 2522)" fill="rgba(191,154,65,0)" stroke="#fff" stroke-width="2">
+      <rect width="674" height="238" rx="50" stroke="none"/>
+      <rect x="1" y="1" width="672" height="236" rx="49" fill="none"/>
     </g>
     <text id="Cariere_de_succes_data_" data-name="Cariere de succes
 *data*" transform="translate(2419 2554)" fill="#fff" font-size="42" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="26.535" y="45">Cariere de </tspan><tspan x="63.797" y="101">succes</tspan><tspan x="64.454" y="157">*data*</tspan></text>
