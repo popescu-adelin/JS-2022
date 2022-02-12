@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="674" height="238" viewBox="0 0 674 238">
-  <g id="Group_175" data-name="Group 175" transform="translate(-2038 -2522)">
-    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(2038 2522)" fill="rgba(191,154,65,0)" stroke="#fff" stroke-width="2">
-      <rect width="674" height="238" rx="50" stroke="none"/>
-      <rect x="1" y="1" width="672" height="236" rx="49" fill="none"/>
+  <g id="im5" transform="translate(-2038 -2522)">
+    <g id="Group_175" data-name="Group 175">
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="674" height="238" rx="50" transform="translate(2038 2522)" fill="#efa834"/>
+      <text id="Cariere_de_succes_data_" data-name="Cariere de succes
+*data*" transform="translate(2419 2554)" font-size="42" font-family="Segoe UI Variable Text" font-weight="700"><tspan x="26.535" y="45">Cariere de </tspan><tspan x="63.797" y="101">succes</tspan><tspan x="64.454" y="157">*data*</tspan></text>
+      <path id="graph-up" d="M0,0H7.342V110.817H117.467V118.2H0ZM108.782,23a3.71,3.71,0,0,1,.514,5.2L76.258,68.832a3.656,3.656,0,0,1-5.433.273L51.832,49.993,24.991,87.131a3.655,3.655,0,0,1-5.045.7,3.709,3.709,0,0,1-.887-5.047L48.426,42.155a3.656,3.656,0,0,1,5.565-.443L73.145,60.993l30.468-37.478A3.655,3.655,0,0,1,108.782,23Z" transform="translate(2137 2581.625)" fill-rule="evenodd"/>
     </g>
-    <text id="Cariere_de_succes_data_" data-name="Cariere de succes
-*data*" transform="translate(2419 2554)" fill="#fff" font-size="42" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="26.535" y="45">Cariere de </tspan><tspan x="63.797" y="101">succes</tspan><tspan x="64.454" y="157">*data*</tspan></text>
-    <path id="graph-up" d="M0,0H7.342V110.817H117.467V118.2H0ZM108.782,23a3.71,3.71,0,0,1,.514,5.2L76.258,68.832a3.656,3.656,0,0,1-5.433.273L51.832,49.993,24.991,87.131a3.655,3.655,0,0,1-5.045.7,3.709,3.709,0,0,1-.887-5.047L48.426,42.155a3.656,3.656,0,0,1,5.565-.443L73.145,60.993l30.468-37.478A3.655,3.655,0,0,1,108.782,23Z" transform="translate(2137 2581.625)" fill="#fff" fill-rule="evenodd"/>
   </g>
 </svg>

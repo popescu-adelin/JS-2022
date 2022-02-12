@@ -38,8 +38,8 @@ body{
     transition-duration: 0.3s;
 }
 .teambg{
-    background: url('vscode/lumini.png') -150px -100px;
-    background-repeat: no-repeat;
+    /* background: url('vscode/lumini.png') -150px -100px;
+    background-repeat: no-repeat; */
 }
 .mybutton:hover{
     background-color: chocolate;
@@ -81,35 +81,6 @@ body{
     padding: 10px;
     
 }
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .mytext{
-        font-size: 40px;
-    }
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .mytext{
-        font-size: 45px;
-    }
- }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    
-}
 /* popup */
 .black_overlay {
     display: none;
@@ -127,19 +98,63 @@ body{
   .white_content {
     display: none;
     position: fixed;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-    padding: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    padding: 20px;
    
     background-color: white;
     z-index: 1002;
     overflow: auto;
   }
+  input,select{
+      border-radius: 10px;
+      border: 1px solid black;
+  }
+  
   #light{
       background-color: violet;
   }
   #light1{
       background: turquoise;
   }
+  #myform{
+      background: white;
+  }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mytext{
+        font-size: 40px;
+    }
+    .white_content{
+        width: 60%;
+        height: 60%;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mytext{
+        font-size: 45px;
+    }
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
+
+

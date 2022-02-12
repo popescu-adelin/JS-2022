@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="z-index: 1000;">
         <div class="container bg-dark">
             <a class="navbar-brand" href="#"><img src="vscode/Brand_logo_2.svg" width="180" alt="JobShop Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -222,7 +222,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="text-center"><button type="button" class="mybutton  px-4 btn corcoal-color">Register Now!</button></div>
+            <div class="text-center">
+                <a href="javascript:void(0)"
+                    onclick="document.getElementById('myform').style.display='block';document.getElementById('fade').style.display='block'"><button
+                        type="button" class="mybutton  px-4 btn corcoal-color">Register Now!</button></a>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
@@ -508,18 +512,21 @@
                 </div>
             </div>
         </div>
-        <div class="row d-flex justify-content-center">
-            
+        <div class="row mb-4 d-flex justify-content-center">
+
             <div class="col-12 col-md-6 text-center text-white">
-                <form  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMUJxCwS5hUxwHN_0SRepefedKjDbABVYZ3TZRqba03wDZhg/formResponse" method="post">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMUJxCwS5hUxwHN_0SRepefedKjDbABVYZ3TZRqba03wDZhg/formResponse"
+                    method="post">
                     <h5>Subscribe to our newsletter</h5>
                     <p>By pressing subrscribe you agree tot our terms and conditions.</p>
                     <div class="d-flex w-100 gap-2">
-                      <label for="newsletter1" class="visually-hidden">Email address</label>
-                      <input id="newsletter1" type="email" name="entry.1991950759" class="form-control" required placeholder="Email address">
-                      <button class="btn btn-primary" type="submit">Subscribe</button>
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="email" name="entry.1991950759" class="form-control" required
+                            placeholder="Email address">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
                     </div>
-                  </form>
+                </form>
             </div>
         </div>
         <div>
@@ -541,27 +548,84 @@
     <div id="light1" class="white_content ">This is the lightbox content. <a href="javascript:void(0)"
             onclick="document.getElementById('light1').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
     </div>
+    <div id="myform" class="white_content ">
+        <div class="div d-flex flex-row-reverse">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('myform').style.display='none';document.getElementById('fade').style.display='none'">
+                <button type="button" class="btn-close"></button></a>
+        </div>
+        <div class="row justify-content-center">
+            <div class="formTitle col-10 col-md-8 fw-normal">
+                <h1 class="text-center mb-3">Inscriere JobShop® 2022</h1>
+                <p>In acest an JobShop 2022 se va desfasura fizic si iti ofera sansa sa ai un contact direct cu companiile participante. <br>
+                Mai multe detalii sunt accesibile pe <a href="">facebook</a></p>
+            </div>
+            <div class=" col-10 col-md-8">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf8xDSdP6oP9BchGeg76IDytrBVosOTRdMIvJcVja63sJdClg/formResponse">
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Nume si prenume</span>
+                        <input  required type="text" placeholder="Nume si prenume" name="entry.1823064068">
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Facultate</span>
+                        <select name="entry.1061002050" id="">
+                            <option name="entry.1061002050" >UTC-N, Automatica si Calculatoare</option>
+                            <option name="entry.1061002050">UTC-N, ETTI</option>
+                            <option name="entry.1061002050">UTC-N, Constructii</option>
+                            <option name="entry.1061002050">UTC-N, Constructii de masini</option>
+                            <option name="entry.1061002050">UTC-N, Inginerie Electrica</option>
+                            <option name="entry.1061002050">UTC-N, ARMM</option>
+                            <option name="entry.1061002050">UTC-N, IMM</option>
+                            <option name="entry.1061002050">UTC-N, Instalatii</option>
+                            <option name="entry.1061002050">UTC-N, Arhitectura si Urbanism</option>
+                            <option name="entry.1061002050">UTC-N, Mate-Info</option>
+                            <option name="entry.1061002050">UTC-N, FSEGA</option>
+                            <option name="entry.1061002050" selected>Altele</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">An facultate</span>
+                        <select  name="entry.183749812" name="" id="">
+                            <option name="entry.183749812">Licenta 1</option>
+                            <option name="entry.183749812">Licenta 2</option>
+                            <option name="entry.183749812">Licenta 3</option>
+                            <option name="entry.183749812">Licenta 4</option>
+                            <option name="entry.183749812">Master 1</option>
+                            <option name="entry.183749812">Master 2</option>
+                            <option name="entry.183749812" selected>Altele</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Numar de telefon</span>
+                        <input required type="text" placeholder="Numar de telefon" name="entry.1446551829">
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Adresa de email</span>
+                        <input required type="email" placeholder="Email" name="entry.1919556246">
+                    </div>
+                    <div class="">
+                        <span class="d-flex mt-3 fw-normal">Te rugăm să iei la cunoștință faptul că BEST Cluj-Napoca își rezervă dreptul de a păstra datele tale personale și imaginile pe toată perioada evenimentului și promovarea acestuia. De asemenea, datele vor fi stocate pentru următoarele evenimente. Dacă dorești ca acestea să fie șterse te rugăm să ne lași un email la cluj@BEST.eu.org. *</span>
+                        <label for="Agree">
+                            <input  required type="radio"
+                            id="Agree"
+                            value="Sunt de acord" name="entry.2070560479"
+                            checked>
+                            
+                        </label>
+                        <span class=" fw-normal" >Sunt de acord</span>
+                    </div>
+                    <button class="btn btn-primary mt-3" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
     <div id="fade" class="black_overlay "></div>
+
     <!-- Go up button -->
-   <script>
-       $( "form" ).on( "submit", function( event ) {
-  var $t = $( this ),
-      params = $t.serialize(),
-      url = $t.prop('action');
 
-  event.preventDefault();
-
-  $.post( url , params )
-     .done(function() {
-        console.log( "success" );
-        window.location.href = "success.html");
-     })
-     .fail(function() {
-        console.log( "error" );
-        window.location.href = "error.html");
-     });
-});
-   </script>
     <script>
         configObj = { "buttonD": "M8 17.333h5.333v4C13.333 22.806 14.527 24 16 24c1.473 0 2.667-1.194 2.667-2.667v-4H24L16 8l-8 9.333z", "buttonT": "translate(-1088 -172) translate(832 140) translate(32 32) translate(224)", "shadowSize": "none", "roundnessSize": "12px", "buttonDToBottom": "32px", "buttonDToRight": "28px", "selectedBackgroundColor": "#fffafa", "selectedIconColor": "#000000", "buttonWidth": "40px", "buttonHeight": "40px", "svgWidth": "32px", "svgHeight": "32px" };
         function createButton(obj, pageSimulator) {
