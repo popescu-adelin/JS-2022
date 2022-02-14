@@ -113,6 +113,9 @@ body{
       border-radius: 10px;
       border: 1px solid black;
   }
+  #myform::-webkit-scrollbar{
+    display: none;
+  }
   
   #light{
       background-color: violet;
