@@ -37,10 +37,10 @@ body{
     box-shadow: 1px 0px 3px chocolate;
     transition-duration: 0.3s;
 }
-.teambg{
-    /* background: url('vscode/lumini.png') -150px -100px;
-    background-repeat: no-repeat; */
-}
+/* .teambg{
+    background: url('vscode/lumini.png') -150px -100px;
+    background-repeat: no-repeat;
+} */
 .mybutton:hover{
     background-color: chocolate;
     color:black;
