@@ -37,10 +37,9 @@ body{
     box-shadow: 1px 0px 3px chocolate;
     transition-duration: 0.3s;
 }
-/* .teambg{
-    background: url('vscode/lumini.png') -150px -100px;
-    background-repeat: no-repeat;
-} */
+.teambg{
+    font-size: xx-small;
+}
 .mybutton:hover{
     background-color: chocolate;
     color:black;
@@ -128,7 +127,9 @@ body{
   }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    
+    .teambg{
+        font-size:medium
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
