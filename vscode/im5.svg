@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="674" height="238" viewBox="0 0 674 238">
   <g id="im5" transform="translate(-2038 -2522)">
-    <g id="Group_175" data-name="Group 175">
-      <rect id="Rectangle_21" data-name="Rectangle 21" width="674" height="238" rx="50" transform="translate(2038 2522)" fill="#efa834"/>
-      <text id="Cariere_de_succes_data_" data-name="Cariere de succes
-*data*" transform="translate(2419 2554)" font-size="42" font-family="Segoe UI Variable Text" font-weight="700"><tspan x="26.535" y="45">Cariere de </tspan><tspan x="63.797" y="101">succes</tspan><tspan x="64.454" y="157">*data*</tspan></text>
-      <path id="graph-up" d="M0,0H7.342V110.817H117.467V118.2H0ZM108.782,23a3.71,3.71,0,0,1,.514,5.2L76.258,68.832a3.656,3.656,0,0,1-5.433.273L51.832,49.993,24.991,87.131a3.655,3.655,0,0,1-5.045.7,3.709,3.709,0,0,1-.887-5.047L48.426,42.155a3.656,3.656,0,0,1,5.565-.443L73.145,60.993l30.468-37.478A3.655,3.655,0,0,1,108.782,23Z" transform="translate(2137 2581.625)" fill-rule="evenodd"/>
+    <g id="im5-2" data-name="im5">
+      <g id="Group_175" data-name="Group 175">
+        <rect id="Rectangle_21" data-name="Rectangle 21" width="674" height="238" rx="50" transform="translate(2038 2522)" fill="#efa834"/>
+        <text id="Cariere_de_succes_data_" data-name="Cariere de succes
+*data*" transform="translate(2419 2554)" font-size="42" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="16.922" y="41">Cariere de </tspan><tspan x="53.798" y="93">succes</tspan><tspan x="59.531" y="145">*data*</tspan></text>
+        <path id="graph-up" d="M0,0H7.342V110.817H117.467V118.2H0ZM108.782,23a3.71,3.71,0,0,1,.514,5.2L76.258,68.832a3.656,3.656,0,0,1-5.433.273L51.832,49.993,24.991,87.131a3.655,3.655,0,0,1-5.045.7,3.709,3.709,0,0,1-.887-5.047L48.426,42.155a3.656,3.656,0,0,1,5.565-.443L73.145,60.993l30.468-37.478A3.655,3.655,0,0,1,108.782,23Z" transform="translate(2137 2581.625)" fill-rule="evenodd"/>
+      </g>
     </g>
   </g>
 </svg>
