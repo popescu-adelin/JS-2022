@@ -4,8 +4,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
-.container{
-    background-color: rgba(255, 255, 255, 0);
+.Team{
+    background-color: #b1b1b11a;
 }
 .mybox1{
     background-color: rgba(128, 128, 128, 0.494);
@@ -15,7 +15,7 @@ body{
     border-left: none;
     border-right: none;
     height: 100px;
-    color: chocolate;
+    color: #efa834;
     font-family: 'Noto Sans', sans-serif;
 }
 .mytitle2{
@@ -34,14 +34,18 @@ body{
     border: 2px solid rgb(210, 105, 30);
     color:white;
     border-radius: 1.5em;
-    box-shadow: 1px 0px 3px chocolate;
+    box-shadow: 1px 0px 3px #efa834;
     transition-duration: 0.3s;
 }
 .teambg{
     font-size: xx-small;
 }
+.teambg a{
+    font-size: xx-small;
+    color: white;
+}
 .mybutton:hover{
-    background-color: chocolate;
+    background-color: #efa834;
     color:black;
     font-weight: 500;
   
@@ -53,14 +57,14 @@ body{
 // No media query for `xs` since this is the default in Bootstrap */
 .mytext{
     font-size: 45px;
-    color: chocolate;
+    color: #efa834;
     font-family: 'Noto Sans', sans-serif;
 }
 .mybg{
     background-color: rgba(0, 0, 0, 0);
 }
 .corcoal-color{
-    color: chocolate;
+    color: #efa834;
     font-weight: 400;
 }
 .checkboxform{
@@ -103,8 +107,6 @@ body{
     width: 85%;
     height: 80%;
     padding: 10px;
-   
-    background-color: white;
     z-index: 1002;
     overflow: auto;
   }
@@ -112,8 +114,8 @@ body{
       border-radius: 10px;
       border: 1px solid black;
   }
-  #myform::-webkit-scrollbar{
-    display: none;
+  #myform{
+    overflow-x: hidden;
   }
   
   #light{
@@ -123,17 +125,30 @@ body{
       background: turquoise;
   }
   #myform{
-      background: white;
+      background: #f9f9f9;
   }
   .mybuttoncollor{
       background-color: chocolate;
       border: chocolate;
       color: black;
+      font-weight: bold;
   }
+ 
+  .navPart:hover{
+      font-weight:bold;
+  }
+ 
+  .mapSize iframe{
+
+    width:100% !important;
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .teambg{
         font-size:medium
+    }
+    .teambg a{
+        font-size: medium;
     }
  }
 
