@@ -7,6 +7,9 @@ body{
 .Team{
     background-color: #b1b1b11a;
 }
+.Companies{
+    background-color: #f9f9f9;
+}
 .mybox1{
     background-color: rgba(128, 128, 128, 0.494);
 }
@@ -19,7 +22,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 .mytitle2{
-    background-color: white;
+    background-color: rgb(155, 155, 155);
     height: 63;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -128,8 +131,8 @@ body{
       background: #f9f9f9;
   }
   .mybuttoncollor{
-      background-color: chocolate;
-      border: chocolate;
+      background-color: #efa834;
+      border: #efa834;
       color: black;
       font-weight: bold;
   }
@@ -140,7 +143,7 @@ body{
  
   .mapSize iframe{
 
-    width:100% !important;
+    width:100%;
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -150,11 +153,18 @@ body{
     .teambg a{
         font-size: medium;
     }
+    .mapSize iframe{
+
+        width:400px;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    
+    .mapSize iframe{
+
+        width:300px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -167,6 +177,9 @@ body{
         height: 60%;
         padding: 20;
     }
+    .mapSize iframe{
+        width:400px;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -174,12 +187,17 @@ body{
     .mytext{
         font-size: 45px;
     }
+    .mapSize iframe{
+        width:450px;
+    }
     
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    
+    .mapSize iframe{
+        width:600px;
+    }
 }
 
 
