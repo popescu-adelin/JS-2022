@@ -10,6 +10,9 @@ body{
 .Companies{
     background-color: #f9f9f9;
 }
+.Companies1{
+    background: linear-gradient(to bottom, #f9f9f9,75%,#05161d );
+}
 .mybox1{
     background-color: rgba(128, 128, 128, 0.494);
 }
@@ -27,6 +30,7 @@ body{
     height: 63;
     font-family: 'Noto Sans', sans-serif;
 }
+
 .myimgbox{
     width: 200px;
 }
