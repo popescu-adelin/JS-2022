@@ -12,18 +12,211 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="cdsstyle.css">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="cdsstyle.css">
+   
     <title>JobShop</title>
 </head>
 
 <body>
-    <div class="content-area">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="z-index: 1000;">
+        <div class="container bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="vscode/Brand_logo_2.svg" width="180" alt="JobShop Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class=" nav-item mx-2 d-none d-lg-block">
+                        <a class="nav-link active navPart" aria-current="page" href="javascript:void(0)"
+                            onclick="document.getElementById('myform').style.display='block';document.getElementById('fade').style.display='block'">Register
+                            Now!</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                        <a class="nav-link active navPart" target="_blank" aria-current="page"
+                            href="https://bestcj.ro/">BEST</a>
+                    </li>
 
-        <div class="chart-load-container">
-            <span class="text">Loading...</span>
+                    <li class="mx-2 nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active navPart" href="#" id="navbarScrollingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item " href="cds.html">How to start up?</a></li>
+                            <li><a class="dropdown-item" href="cds.html">Cariere de succes</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li> -->
+                            <!-- apare pe mijloc -->
+                        </ul>
+                    </li>
+                    <li class="mx-2 nav-item">
+                        <a class="nav-link active navPart" href="https://bestcj.ro/2-percent-program/">2% Program</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="mybg">
+        <!-- describe -->
+        <!-- 
+    E mai bine fara partea de sus
+ -->
+        <!-- <div class="col-12  d-flex align-items-center justify-content-center">
+                <div class="mybox">
+                    <img src="vscode/logo.svg" class="img-fluid " alt="">
+                    <h1 class="mytext display-5 mt-4">There should be a nice text</h1>
+                </div>
+            </div> -->
+        <div class="">
+            <img src="vscode/CDSbg.jpg" class="img-fluid" style="width: 100%;" alt="">
+        </div>
+    </div>
+
+
+        
+
+    <div class="container-fluid bg-dark mt-5 pb-2">
+
+        <ul class="nav justify-content-center border-bottom py-3 mb-3 ">
+            <li class="nav-item"><a href="http://bestcj.ro/" target="_blank" class="nav-link px-2 text-white">BEST</a>
+            </li>
+            <li class="nav-item"><a href="https://bestcj.ro/2-percent-program/" target="_blank"
+                    class="nav-link px-2 text-white">2%
+                    Program</a></li>
+            <li class="nav-item"><a href="https://www.utcluj.ro/" target="_blank"
+                    class="nav-link px-2 text-white">UTCN</a></li>
+        </ul>
+        <div class="row mb-3 text-center">
+            <div class="col">
+                <div class="icons ">
+                    <a href="https://www.instagram.com/best_clujnapoca/" target="_blank"><img src="vscode/ig.svg"
+                            style="width: 20px;" class="mx-2" alt=""></a>
+                    <a href="https://www.facebook.com/BESTcluj/" target="_blank"><img src="vscode/fb.svg"
+                            style="width: 10px;" class="mx-2" alt=""></a>
+                    <a href="https://www.linkedin.com/company/best-cluj-napoca" target="_blank"><img src="vscode/in.svg"
+                            style="width: 20px;" class="mx-2" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4 d-flex justify-content-center">
+
+            <div class="col-12 col-md-6 text-center text-white">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMUJxCwS5hUxwHN_0SRepefedKjDbABVYZ3TZRqba03wDZhg/formResponse"
+                    method="post">
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>By pressing subrscribe you agree tot our terms and conditions.</p>
+                    <div class="d-flex w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="email" name="entry.1991950759" class="form-control" required
+                            placeholder="Email address">
+                        <button class="btn  mybuttoncollor" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <p class="text-center text-white">© 2022 BEST Cluj-Napoca</p>
         </div>
 
+
+
     </div>
+
+    <div id="myform" class="white_content rounded">
+        <div class="div d-flex flex-row-reverse">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('myform').style.display='none';document.getElementById('fade').style.display='none'">
+                <button type="button" class="btn-close"></button></a>
+        </div>
+        <div class="row justify-content-center">
+            <div class="formTitle col-10 col-md-8 fw-normal">
+                <h1 class="text-center mb-3">Înscriere JobShop® 2022</h1>
+                <p>JobShop® te pune în contact direct cu companiile participante. Vino la BTarena pe 10 și 11 martie să
+                    vorbești față în față cu reprezentanții lor! <br>
+                    Mai multe detalii se găsesc pe <a href="https://fb.me/e/1BOSnYdcq">facebook</a></p>
+                <p>Completează formularul de mai jos ca să te putem ține la curent cu cele mai noi anunțuri legate de
+                    JobShop®.
+                </p>
+            </div>
+            <div class=" col-10 col-md-8 mb-5">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf8xDSdP6oP9BchGeg76IDytrBVosOTRdMIvJcVja63sJdClg/formResponse">
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Nume și prenume</span>
+                        <input style="height: 25px;" required type="text" placeholder="Nume si prenume"
+                            name="entry.1823064068">
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Facultate</span>
+                        <select style="height: 25px;" class="w-100" name="entry.1061002050" id="">
+                            <option name="entry.1061002050">UTC-N, Automatică și Calculatoare</option>
+                            <option name="entry.1061002050">UTC-N, ETTI</option>
+                            <option name="entry.1061002050">UTC-N, Construcții</option>
+                            <option name="entry.1061002050">UTC-N, IIRMP</option>
+                            <option name="entry.1061002050">UTC-N, Inginerie Electrică</option>
+                            <option name="entry.1061002050">UTC-N, ARMM</option>
+                            <option name="entry.1061002050">UTC-N, IMM</option>
+                            <option name="entry.1061002050">UTC-N, Instalații</option>
+                            <option name="entry.1061002050">UTC-N, Arhitectură și Urbanism</option>
+                            <option name="entry.1061002050">UBB, Mate-Info</option>
+                            <option name="entry.1061002050">UBB, FSEGA</option>
+                            <option name="entry.1061002050" selected>Altele</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">An facultate</span>
+                        <select style="height: 25px;" name="entry.183749812" id="">
+                            <option name="entry.183749812">Licentă 1</option>
+                            <option name="entry.183749812">Licentă 2</option>
+                            <option name="entry.183749812">Licentă 3</option>
+                            <option name="entry.183749812">Licentă 4</option>
+                            <option name="entry.183749812">Master 1</option>
+                            <option name="entry.183749812">Master 2</option>
+                            <option name="entry.183749812" selected>Altele</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Număr de telefon(optional)</span>
+                        <input style="height: 25px;" type="text" placeholder="Numar de telefon" name="entry.1446551829">
+                    </div>
+                    <div>
+                        <span class="d-flex mt-3 fw-normal">Adresă de email</span>
+                        <input style="height: 25px;" required type="email" placeholder="Email" name="entry.1919556246">
+                    </div>
+                    <div class="">
+                        <span class="d-flex mt-3 fw-normal"><a style="color: red;">*</a>Te rugăm să iei la cunoștință
+                            faptul că BEST Cluj-Napoca își rezervă dreptul de a păstra datele tale personale și
+                            imaginile pe toată perioada evenimentului și promovarea acestuia. De asemenea, datele vor fi
+                            stocate pentru următoarele evenimente. Dacă dorești ca acestea să fie șterse te rugăm să ne
+                            lași un email la cluj@BEST.eu.org</span>
+                        <label for="Agree">
+                            <input required type="radio" id="Agree" value="Sunt de acord" name="entry.2070560479"
+                                checked>
+
+                        </label>
+                        <span class=" fw-normal">Sunt de acord</span>
+                    </div>
+                    <button class="btn btn-primary  mt-3" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <a href="javascript:void(0)" style="cursor: default;"
+        onclick="document.getElementById('myform').style.display='none';document.getElementById('fade').style.display='none'">
+        <!-- treaba asta trebuie pusa la fiecare box cu popup de genul -->
+        <div id="fade" class="black_overlay "></div>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
