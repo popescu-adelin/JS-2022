@@ -1,0 +1,27 @@
+body{
+    background-color: #291947;
+}
+.mytitle{
+    color: #d8d7c7; text-shadow: 0 0 0.15em #d8d7c7; filter: blur(0.007em);
+
+}
+.mynav{
+    background-color: #9e86d6;
+}
+.mynav a{
+    color: white;
+}
+.mynav a:hover{
+    color: white;
+}
+.mydrop{
+    background-color: black;
+}
+.mydropitem{
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+}
+.mydropitem:hover{
+    text-shadow: 1px 1px 2px white;
+}
