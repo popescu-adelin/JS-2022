@@ -25,3 +25,10 @@ body{
 .mydropitem:hover{
     text-shadow: 1px 1px 2px white;
 }
+
+.mybuttoncollor{
+    background-color: #9e86d6;
+    border: #9e86d6;
+    color: black;
+    font-weight: bold;
+}

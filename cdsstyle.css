@@ -9,3 +9,9 @@ body{
   border:1px solid #9a9afb;
   border-radius: 3%;
 }
+.mybuttoncollor{
+  background-color: #9a9afb;
+  border: #9a9afb;
+  color: black;
+  font-weight: bold;
+}
