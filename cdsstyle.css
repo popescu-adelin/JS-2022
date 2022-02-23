@@ -28,3 +28,11 @@ body{
   box-shadow: 1px 0px 3px #ffffff;
 
 }
+textarea{
+  width: 100%;
+}
+@media(min-width:576px){
+  textarea{
+      width: auto;
+  }
+}
