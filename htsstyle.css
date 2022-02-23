@@ -32,3 +32,15 @@ body{
     color: black;
     font-weight: bold;
 }
+.mybutton{
+    background-color:#291947;
+    border-color: #9e86d6;
+    box-shadow: 0px 0px 10px #9e86d6;
+    color: #c1e7f4; text-shadow: 0 0 0.15em #c1e7f4; filter: blur(0.007em);
+}
+.mybutton:hover{
+    background-color:#9e86d6;
+    border-color: #9e86d6;
+    box-shadow: 0px 0px 10px #9e86d6;
+    color: #291947; text-shadow: 0 0 0.15em #291947; filter: blur(0.007em);
+}
